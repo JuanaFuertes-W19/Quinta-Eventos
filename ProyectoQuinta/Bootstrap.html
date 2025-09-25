@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="BootstrapStyles.css">
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Quinta <span class="text-success">El Encuentro</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#instalaciones">Instalaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#calendario">Calendario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#precios">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mapa">Cómo llegar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<section class="container hero my-5 position-relative" style="max-width:900px;">
+  <div class="position-relative" style="height: 55vh; min-height: 320px;">
+    <!-- Carousel de fondo -->
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="z-index: 1;">
+      <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner h-100 rounded shadow">
+          <div class="carousel-item active h-100">
+            <img src="imagenes/maschwitz4.jpg" class="d-block w-100 h-100" style="object-fit: cover; opacity: 0.65;" alt="Parque y áreas verdes">
+          </div>
+          <div class="carousel-item h-100">
+            <img src="imagenes/mesa-grande.jpg" class="d-block w-100 h-100" style="object-fit: cover; opacity: 0.65;" alt="MesaGrande">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Texto superpuesto -->
+    <div class="position-absolute top-50 start-50 translate-middle text-center w-100" style="z-index: 2;">
+      <div class="mx-auto px-4 py-3" style="border-radius: 1rem; max-width: 600px;">
+        <h1 class="display-4 text-white fw-bold mb-3">FESTEJA CON NOSOTROS!</h1>
+        <p class="lead text-white mb-4">Disfrutá momentos únicos rodeado de naturaleza y tranquilidad. Un espacio pensado para compartir en familia y celebrar con quienes más querés, lejos del ruido y cerca de lo importante</p>
+        <a class="btn btn-success btn-lg" href="https://wa.me/5491176437211?text=Hola,%20quiero%20consultar%20por%20fechas%20para%20la%20quinta" target="_blank" rel="noopener">Reservar/Consultar</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--<section class="container hero my-5">
+  <div class="row align-items-center">
+    <div class="col-md-5 mb-4 mb-md-0">
+      <h1 class="display-4 text-success fw-bold">FESTEJA CON NOSOTROS!</h1>
+      <p class="lead">Disfrutá momentos únicos rodeado de naturaleza y tranquilidad. Un espacio pensado para compartir en familia y celebrar con quienes más querés, lejos del ruido y cerca de lo importante</p>
+      <a class="btn btn-success btn-lg" href="https://wa.me/5491176437211?text=Hola,%20quiero%20consultar%20por%20fechas%20para%20la%20quinta" target="_blank" rel="noopener">Reservar/Consultar</a>
+    </div>
+    <div class="col-md-7">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="imagenes/maschwitz4.jpg" class="d-block w-100" alt="Parque y áreas verdes">
+          </div>
+          
+          
+          <div class="carousel-item">
+            <img src="imagenes/mesa-grande.jpg" class="d-block w-100" alt="MesaGrande">
+          </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
